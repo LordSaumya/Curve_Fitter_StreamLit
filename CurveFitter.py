@@ -14,7 +14,7 @@ import random
 
 #GUI
 st.title("Curve Fitter")
-
+st.sidebar.write("Welcome to Curve Fitter, a programme that takes your data and models a function to it.\nSimply input your data, choose a function, sit back, and watch.")
 #Functions:
     #Derivative & Integral:
 def deriv(func):
@@ -240,6 +240,8 @@ def cont():
             graph(func,param)
     except TypeError:
         st.error("The number of datapoints are too less to model an accurate function. Please add more datapoints and try again")
+    except:
+        st.error("Unknown error occurred. Refresh and try again. If the issue persists, please contact the developer")
 #Variables:
 x = []
 y = []
