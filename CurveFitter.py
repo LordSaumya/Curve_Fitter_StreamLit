@@ -14,7 +14,7 @@ import random
 
 #GUI
 st.title("Curve Fitter")
-st.sidebar.write("Welcome to Curve Fitter, a programme that takes your data and models a function to it.\nSimply input your data, choose a function, sit back, and watch.")
+st.sidebar.write("Welcome to Curve Fitter, a programme that takes your data and models a function to it.\nSimply input your data, choose a function, sit back, and watch.\n\n- Saumya Shah")
 #Functions:
     #Derivative & Integral:
 def deriv(func):
